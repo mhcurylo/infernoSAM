@@ -36,6 +36,7 @@ const render = renderer(document.getElementById('app'));
 
 const nap = a => s => s.v === 20 ? action(a)(30) : ''; 
 
+//IO functions - rendering state and triggering next action
 const appIO = multiApply(compose(render, view(app)), nap(app));
 
 //app has to hoist in order to behave properly when applied to curried na in appIO
