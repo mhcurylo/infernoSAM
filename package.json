@@ -2,6 +2,7 @@
   "name": "infernoSAM",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT"<
   "devDependencies": {
     "inferno-scripts": "0.10.2"
   },
